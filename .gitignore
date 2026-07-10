@@ -1,0 +1,29 @@
+# Virtual Environment
+backend/.venv/
+.venv/
+venv/
+env/
+ENV/
+
+# Python caching & compiled files
+backend/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node dependencies
+frontend/node_modules/
+node_modules/
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+.next/
+out/
+
+# IDE configs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

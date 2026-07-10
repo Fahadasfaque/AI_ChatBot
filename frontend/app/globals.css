@@ -1,0 +1,31 @@
+/* Custom premium scrollbar styling for a modern, sleek dark mode feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(17, 17, 27, 0.3); /* Match window dark theme */
+  border-radius: 8px;
+}
+
+/* Floating capsule scrollbar thumb design */
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  border: 2px solid transparent; /* Padding around thumb */
+  background-clip: padding-box;
+  transition: background 0.25s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Scrollbar support for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.1) rgba(17, 17, 27, 0.3);
+}
